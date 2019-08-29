@@ -31,10 +31,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         db = new DatabaseHelper(this);
-      /*  db.insertData("Anni kanjor insaan hai");
-        db.insertData("me kehta hn kay na dunya gool hain");
-        db.insertData("Yeh dunya pittal di tay babydol me sonay di");
-*/
+
+        db.insertData("One SMALL step for man, One giant LEAP for MANKIND.");
+        db.insertData("Light enters where the wound is.");
+
         storeData();
         viewAll = (Button)findViewById(R.id.button);
         quotation = (TextView)findViewById(R.id.textView) ;

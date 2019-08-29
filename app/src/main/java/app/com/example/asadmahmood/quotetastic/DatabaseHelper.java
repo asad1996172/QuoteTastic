@@ -25,37 +25,16 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         ContentValues contentValues = new ContentValues();
         contentValues.put("quote","Sweat is weakness leaving the body");
         contentValues.put("by","Asad ahmood");
-        contentValues.put("description","asssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss" +
-                "asddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd" +
-                "affffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff" +
-                "afffffffffffffffffffffffffffffffffffffffffffffffffffffffff" +
-                "ggggggggggggggggggggggggggggggggggggggggggggggggggggggggg" +
-                "hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh" +
-                "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj" +
-                "kkkkkkkkkkkk ");
+        contentValues.put("description","--");
         db.insert(TABLE_NAME , null , contentValues);
-        contentValues.put("quote","me kehta hn kay na dunya gool hain");
-        contentValues.put("by","lobarto carlos");
-        contentValues.put("description","asssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss\" +\n" +
-                "                \"asddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd\" +\n" +
-                "                \"affffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff\" +\n" +
-                "                \"afffffffffffffffffffffffffffffffffffffffffffffffffffffffff\" +\n" +
-                "                \"ggggggggggggggggggggggggggggggggggggggggggggggggggggggggg\" +\n" +
-                "                \"hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh\" +\n" +
-                "                \"jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\" +\n" +
-                "                \"kkkkkkkkkkkk  ");
+        contentValues.put("quote","Light enters where the wound is.");
+        contentValues.put("by","Runi");
+        contentValues.put("description","--");
         db.insert(TABLE_NAME , null , contentValues);
 
-        contentValues.put("quote","Yeh dunya pittal di tay babydol me sonay di");
-        contentValues.put("by","Baby Doll");
-        contentValues.put("description","asssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss\" +\n" +
-                "                \"asddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd\" +\n" +
-                "                \"affffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff\" +\n" +
-                "                \"afffffffffffffffffffffffffffffffffffffffffffffffffffffffff\" +\n" +
-                "                \"ggggggggggggggggggggggggggggggggggggggggggggggggggggggggg\" +\n" +
-                "                \"hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh\" +\n" +
-                "                \"jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\" +\n" +
-                "                \"kkkkkkkkkkkk  ");
+        contentValues.put("quote","One SMALL step for man, One giant lEAP for MANKIND.");
+        contentValues.put("by","Daniyal Dar");
+        contentValues.put("description","--");
         db.insert(TABLE_NAME , null , contentValues);
 
     }
